@@ -40,20 +40,21 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-              <form action="index.php?registerOrLogin=register">
+              <form action="register.php" method="post">
                 <h2>Registrieren</h2>
-                <input type="hidden" id="registerOrLogin" value="register"/>
+
+                <input type="hidden" id="registerOrLogin" value="register" name="registerOrLogin"/>
                 <div class="form-group">
                   <label for="username">Nutzername</label>
-                  <input type="text" class="form-control" id="username" placeholder="Nutzername">
+                  <input type="text" class="form-control" id="username" placeholder="Nutzername" name="username">
                 </div>
                 <div class="form-group">
                   <label for="passwort">Passwort</label>
-                  <input type="password" class="form-control" id="passwort" placeholder="Passwort">
+                  <input type="password" class="form-control" id="passwort" placeholder="Passwort" name="password">
                 </div>
                 <div class="form-group">
                   <label for="passwortwdh">Passwort Wiederholung</label>
-                  <input type="password" class="form-control" id="passwortwdh" placeholder="Passwort wdh.">
+                  <input type="password" class="form-control" id="passwortwdh" placeholder="Passwort wdh." name="passwordwdh">
                 </div>
                 <div class="form-group">
                   <div class="g-recaptcha" data-sitekey="6LfB9wwTAAAAAP2IBnScsKgqMqAtl6U1zxq2snKt"></div>
