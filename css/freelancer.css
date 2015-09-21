@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    background: url('../img/bg.png')!important;
 }
 
 p {
@@ -456,9 +457,4 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
-}
-
-
-#freifunk{
-    text-align: center;
 }

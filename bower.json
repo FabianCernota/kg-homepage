@@ -1,0 +1,15 @@
+{
+  "name": "kg-homepage",
+  "version": "0.0.0",
+  "authors": [
+    "Fabian Cernota <fabian.cernota@chamaeleon.de>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
